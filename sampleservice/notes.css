@@ -1,0 +1,15 @@
+﻿body {
+}
+/*
+    1. create data entities 
+    2. add new wcf service
+    3. write contracts into the interface
+        3.5. If you want to create a class, create it in the Interface as a data contract, below where you created the service contract. 
+            Make sure that the new class you've created is reflected in the service contracts and the services you implement that make use of it. 
+    4. go to the service, mouse over the I[servicename] and select "implement interface" 
+        5. in the service, create a new db entities object (ex: Community_AssistEntities db = new Community_AssistEntities();)
+        6. In the service methods, create a variable and store results of linq query to it. make sure you're selecting a new {r.something}
+        7. Create a new list to store results, loop through the linq results and store to the list you created. 
+        8. Return the list of strings created. 
+
+*/
