@@ -10,6 +10,6 @@
         5. in the service, create a new db entities object (ex: Community_AssistEntities db = new Community_AssistEntities();)
         6. In the service methods, create a variable and store results of linq query to it. make sure you're selecting a new {r.something}
         7. Create a new list to store results, loop through the linq results and store to the list you created. 
-        8. Return the list of strings created. 
+        8. Return the list of strings (or objects, if you created your own class class) created. 
 
 */
