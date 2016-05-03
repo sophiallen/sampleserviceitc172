@@ -43,6 +43,7 @@ public class BookReviewSampleService : IBookReviewSampleService
             BookLite bl = new BookLite();
             bl.Title = bk.BookTitle;
             bl.AuthorName = bk.AuthorName;
+            bl.ISBN = bk.BookISBN;
             books.Add(bl);
         }
         return books;
